@@ -1,0 +1,42 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4173:4173"
+    environment:
+      - VITE_API_URL=http://localhost:5000
+      - VITE_FIREBASE_API_KEY=AIzaSyCjWAGbYjJQ3eYmCkeJbhMBGZzfKeGSoX0
+      - VITE_FIREBASE_AUTH_DOMAIN=eplq-d5a42.firebaseapp.com
+      - VITE_FIREBASE_PROJECT_ID=eplq-d5a42
+      - VITE_FIREBASE_STORAGE_BUCKET=eplq-d5a42.firebasestorage.app
+      - VITE_FIREBASE_MESSAGING_SENDER_ID=401595677762
+      - VITE_FIREBASE_APP_ID=1:401595677762:web:a90cd3ae2d34191bcb41db
+    command: npm run preview -- --host
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      # Firebase Configuration
+      - FIREBASE_API_KEY=AIzaSyCjWAGbYjJQ3eYmCkeJbhMBGZzfKeGSoX0
+      - FIREBASE_AUTH_DOMAIN=eplq-d5a42.firebaseapp.com
+      - FIREBASE_PROJECT_ID=eplq-d5a42
+      - FIREBASE_STORAGE_BUCKET=eplq-d5a42.firebasestorage.app
+      - FIREBASE_MESSAGING_SENDER_ID=401595677762
+      - FIREBASE_APP_ID=1:401595677762:web:a90cd3ae2d34191bcb41db
+      # JWT Configuration
+      - JWT_SECRET=eplq-jwt-secret-key-2024-min-32-chars-long-secure-key
+      # Encryption Configuration
+      - ENCRYPTION_KEY=eplq-encryption-key-2024-secure-private-key-for-coordinates
+      # Optional: Other Configuration
+      - PORT=5000
+      - CORS_ORIGIN=http://localhost:4173
+     
