@@ -37,7 +37,7 @@ EPLQ (Efficient Privacy-Preserving Location-Based Query) is a secure system for 
 
 ![Screenshot from 2025-05-14 09-58-58](https://github.com/user-attachments/assets/6e1e60c8-326a-49dc-986d-77341fbc73c6)
 
-file:///home/sree0077/Pictures/Screenshots/Screenshot%20from%202025-05-14%2009-59-24.png
+![Screenshot from 2025-05-14 09-59-24](https://github.com/user-attachments/assets/9d4bf13b-7cb2-42ee-86bd-c3f267c3e820)
 
 ![Screenshot from 2025-05-14 11-01-13](https://github.com/user-attachments/assets/2204ffbb-7797-4179-95d3-3c2a81941a38)
 
