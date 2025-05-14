@@ -29,6 +29,24 @@ EPLQ (Efficient Privacy-Preserving Location-Based Query) is a secure system for 
   - Interactive maps using Leaflet
   - Real-time feedback with toast notifications
   - Smooth animations and transitions
+ 
+##📷Screenshots
+
+
+![Screenshot from 2025-05-14 09-57-42](https://github.com/user-attachments/assets/4acfbc6f-3d9e-4fcd-b8da-f4f8612177d5)
+
+![Screenshot from 2025-05-14 09-58-58](https://github.com/user-attachments/assets/6e1e60c8-326a-49dc-986d-77341fbc73c6)
+
+file:///home/sree0077/Pictures/Screenshots/Screenshot%20from%202025-05-14%2009-59-24.png
+
+![Screenshot from 2025-05-14 11-01-13](https://github.com/user-attachments/assets/2204ffbb-7797-4179-95d3-3c2a81941a38)
+
+![Screenshot from 2025-05-14 11-01-34](https://github.com/user-attachments/assets/35bc7256-2c8a-422c-9280-cef21379a278)
+
+![Screenshot from 2025-05-14 11-18-58](https://github.com/user-attachments/assets/20616ada-87f0-49e0-a41b-46f76a2f8381)
+
+
+
 
 ## 🛠️ Tech Stack
 
